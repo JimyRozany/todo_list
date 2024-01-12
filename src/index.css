@@ -1,13 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom fonts */
+
+@font-face {
+  font-family: Amiri;
+  src: url("/public/fonts/Amiri-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Amiri;
+  src: url("/public/fonts/Amiri-Bold.ttf");
+  font-weight: bold;
+}
+/* ====== end custom fonts ====== */
+
 body {
-  margin: 0;
+  /* margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+
+  /* font-family: Amiri; */
+  /* font-family: "Cairo"; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
