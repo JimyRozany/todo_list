@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41cb726a.css",
+    "main.js": "/static/js/main.c7bfbef5.js",
+    "static/media/Amiri-Regular.ttf": "/static/media/Amiri-Regular.854754d93a8cf8711a94.ttf",
+    "static/media/Amiri-Bold.ttf": "/static/media/Amiri-Bold.b2f7400dbb749bb3d119.ttf",
+    "index.html": "/index.html",
+    "main.41cb726a.css.map": "/static/css/main.41cb726a.css.map",
+    "main.c7bfbef5.js.map": "/static/js/main.c7bfbef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41cb726a.css",
+    "static/js/main.c7bfbef5.js"
+  ]
+}
